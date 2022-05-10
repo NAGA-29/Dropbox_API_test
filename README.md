@@ -1,4 +1,9 @@
 # DropBox Developers 
+
+### 環境
+python 3.8.13
+dropbox 11.30.0
+
 ※ログイン必要
 (https://www.dropbox.com/developers/documentation)
 ### Dropbox Github
