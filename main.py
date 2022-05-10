@@ -38,4 +38,4 @@ pprint(share_dir_metadata)
 # pprint(dbx.sharing_get_shared_link_file(url='ここに共有リンクを貼り付ける', path="/boots.jpg"))
 
 # 共有リンクとファイル名からファイルをダウンロード
-dbx.sharing_get_shared_link_file_to_file(download_path='./down.jpg', url='ここに共有リンクを貼り付ける', path='/boots.jpg')
+dbx.sharing_get_shared_link_file_to_file(download_path='./down.jpg', url='ここに共有リンクを貼り付ける', path='/ファイル名 (← / 大事)')
