@@ -35,7 +35,7 @@ share_dir_metadata = dbx.files_list_folder(path="", shared_link=shared_link)
 pprint(share_dir_metadata)
 
 # ファイルのメタデータを取得
-# pprint(dbx.sharing_get_shared_link_file(url='https://www.dropbox.com/sh/jmo02hx4nr0sxk7/AAAvdYa3xYU5taBP7CuktId5a?dl=0', path="/boots.jpg"))
+# pprint(dbx.sharing_get_shared_link_file(url='ここに共有リンクを貼り付ける', path="/boots.jpg"))
 
 # 共有リンクとファイル名からファイルをダウンロード
-dbx.sharing_get_shared_link_file_to_file(download_path='./down.jpg', url='https://www.dropbox.com/sh/jmo02hx4nr0sxk7/AAAvdYa3xYU5taBP7CuktId5a?dl=0', path='/boots.jpg')
+dbx.sharing_get_shared_link_file_to_file(download_path='./down.jpg', url='ここに共有リンクを貼り付ける', path='/boots.jpg')
