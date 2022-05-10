@@ -30,7 +30,7 @@ dbx = dropbox.Dropbox(oauth2_access_token=ACCESS_TOKEN,
                 app_key=APP_KEY, app_secret=APP_SECRET,)
 
 # 共有リンクからメタデータを取得(=ファイルの名前を取得)
-shared_link = dropbox.files.SharedLink(url='https://www.dropbox.com/sh/jmo02hx4nr0sxk7/AAAvdYa3xYU5taBP7CuktId5a?dl=0')
+shared_link = dropbox.files.SharedLink(url='ここに共有リンクを貼り付ける')
 share_dir_metadata = dbx.files_list_folder(path="", shared_link=shared_link)
 pprint(share_dir_metadata)
 
