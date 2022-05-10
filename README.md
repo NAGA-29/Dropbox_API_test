@@ -16,7 +16,10 @@
 - 必要なライブラリをインストール
 ■Python
 (https://github.com/dropbox/dropbox-sdk-python)
+```
 $ pip3 install dropbox
+```
+
 
 ■JavaSDK
 (https://github.com/dropbox/dropbox-sdk-java#setup)
