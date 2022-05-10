@@ -7,8 +7,8 @@
 手順
 - ログイン、
 - Appの作成[create App]
- この時に注意するのは、AppのScoped access設定を[Full Dropbox]にすること
- でないと、共有されたURLからファイルをダウンロードすることができない
+この時に注意するのは、AppのScoped access設定を[Full Dropbox]にすること。
+そうしないと、共有されたURLからファイルをダウンロードすることができない。
 
 - App keyをメモ
  [App key]、[App secret]をメモする
